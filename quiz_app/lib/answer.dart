@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
-  final void Function() selectHandler;
-  final String answerText;
+  final Function() selectHandler;
+  final answerText;
 
   Answer(this.selectHandler, this.answerText);
 
